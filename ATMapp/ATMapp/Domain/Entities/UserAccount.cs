@@ -5,6 +5,7 @@ namespace ATMapp.Domain.Entities
 	{
 		public UserAccount()
 		{
+			
 		}
 	}
 }
