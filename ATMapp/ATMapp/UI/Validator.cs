@@ -11,7 +11,7 @@ namespace ATMapp.UI
             var utility2 = new Utility();
 
             bool valid = false;
-	    string userInput;
+			string userInput;
 
 			while(!valid)
 			{
