@@ -1,0 +1,15 @@
+/Users/amarofilho/Projects/ATMapp/ATMapp/bin/Debug/net7.0/ATMapp
+/Users/amarofilho/Projects/ATMapp/ATMapp/bin/Debug/net7.0/ATMapp.deps.json
+/Users/amarofilho/Projects/ATMapp/ATMapp/bin/Debug/net7.0/ATMapp.runtimeconfig.json
+/Users/amarofilho/Projects/ATMapp/ATMapp/bin/Debug/net7.0/ATMapp.dll
+/Users/amarofilho/Projects/ATMapp/ATMapp/bin/Debug/net7.0/ATMapp.pdb
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.csproj.AssemblyReference.cache
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.AssemblyInfoInputs.cache
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.AssemblyInfo.cs
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.csproj.CoreCompileInputs.cache
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.dll
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/refint/ATMapp.dll
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.pdb
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ATMapp.genruntimeconfig.cache
+/Users/amarofilho/Projects/ATMapp/ATMapp/obj/Debug/net7.0/ref/ATMapp.dll
