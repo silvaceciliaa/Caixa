@@ -57,7 +57,6 @@ namespace ATMapp.UI
             }
 			Console.WriteLine(msg);
 			Console.ForegroundColor = ConsoleColor.DarkYellow;
-			PressEnterToContinue();
 		}
 		public string GetUserInput(string prompt)
 		{
