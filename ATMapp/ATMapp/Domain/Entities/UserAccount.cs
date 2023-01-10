@@ -34,9 +34,11 @@ namespace ATMapp.Domain.Entities
 
             bool isCorrectLogin = false;
 
+            UserAccount tempUserAccount = new UserAccount();
 
-            CardNumber = validator.Convert<long>("Your card number.");
-            CardPin = Convert.ToInt32(utility.GetHiddenInput("Enter your Card PIN"));
+
+            tempUserAccount.CardNumber = validator.Convert<long>("Your card number.");
+            tempUserAccount.CardPin = Convert.ToInt32(utility.GetHiddenInput("Enter your Card PIN"));
         }
     }
 }
