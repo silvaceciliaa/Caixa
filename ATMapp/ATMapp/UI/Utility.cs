@@ -5,10 +5,10 @@ namespace ATMapp.UI
 {
 	public class Utility
 	{
-		public string GetHiddenInput (string prompt)
+        public string GetHiddenInput(string prompt)
 		{
 			bool isPrompt = true;
-			string aserics = "";
+			string asterics = "";
 
 			StringBuilder input = new StringBuilder();
 
@@ -16,11 +16,36 @@ namespace ATMapp.UI
 			{
 				if(isPrompt)
 					Console.WriteLine(prompt);
-				ConsoleKeyInfo inputKey = Console.ReadKey(true);
-			}
+                isPrompt = false;
+                ConsoleKeyInfo inputKey = Console.ReadKey(true);
 
-		}
-		public void PrintMessage(string msg, bool success)
+				if (inputKey.Key == ConsoleKey.Enter)
+				{
+					if (input.Length == 6)
+					{
+						break;
+					}
+					else
+					{
+						PrintMessage("\nPlease enter 6 digits", false);
+                        input.Clear();
+                        isPrompt = true;
+						continue;
+					}
+				}
+				if(inputKey.Key == ConsoleKey.Backspace && input.Length > 0)
+				{
+					input.Remove(input.Length - 1, 1);
+				}
+				else if (inputKey.Key != ConsoleKey.Backspace)
+				{
+					input.Append(inputKey.KeyChar);
+					Console.Write(asterics + "*");
+				}
+			}
+            return input.ToString();
+        }
+		public void PrintMessage(string msg, bool success = true)
 		{
 			if (success)
 			{
@@ -36,12 +61,22 @@ namespace ATMapp.UI
 		}
 		public string GetUserInput(string prompt)
 		{
-			Console.WriteLine($"Entery {prompt}");
+			Console.WriteLine($"Enter {prompt}");
 			return Console.ReadLine();
+		}
+
+		public void PrintDoAnimation(int timer = 10)
+		{
+			for(int i = 0; i < timer; i++)
+			{
+				Console.WriteLine(".");
+				Thread.Sleep(200);
+			}
+			Console.Clear();
 		}
 		public void PressEnterToContinue()
 		{
-            Console.WriteLine("Press any button to continue");
+            Console.WriteLine("\nPress ENTER to continue");
             Console.ReadLine();
         }
 	}
