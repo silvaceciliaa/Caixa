@@ -10,8 +10,7 @@ namespace ATMapp.UI
             Console.Clear();
 
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("Welcome to ATMBank app\n");
-			Console.WriteLine("Please insert your ATMBank card\n");
+            Console.WriteLine("Welcome to VerityBank\n");
             utility1.PressEnterToContinue();
 
         }
